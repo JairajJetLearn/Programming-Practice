@@ -118,4 +118,22 @@ while f < 22:
     print(f)
     f = f + 2
 
+for i in range(5):
+    for j in range(3):
+        print(i,j)
+
+for g in range(2,11,2):
+    for k in range(1,5):
+        print(g+k)
+
+counter1 = 2
+counter2 = 1
+
+while counter1 < 12:
+    while counter2 < 5:
+        print(counter1 + counter2)
+        counter2 = counter2 + 1
+    counter1 = counter1 + 2
+    counter2 = 1
+
 
