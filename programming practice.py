@@ -36,4 +36,86 @@ if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
 else:
     print("That year is not a leap year")
 
+#Create a project to ask the user his name and print it 6 times using for loop.
+
+name = input("Whats your name")
+
+for i in range(6):
+    print(name)
+
+#Q. Create a project to print all the numbers from 0 to 10 using for loop.
+#Q. Create a project to print all the numbers from 7 to 15 using for loop.
+#Q. Create a project to print all the even numbers from 6 to 20 using for loop.
+#Q. Create a project to print all the odd numbers from 7 to 15 using for loop.
+#Q. Create a project to print ten multiples of 3 using for loop.
+#Q. Create a project to print twelve multiples of 8 using for loop.
+#Q. Create a project to print all the numbers from 10 to 1 using for loop.
+
+for i in range(11):
+    print(i)
+
+for a in range(7,16):
+    print(a)
+
+for b in range(6,21,2):
+    print(b)
+
+for c in range(7,16,2):
+    print(c)
+
+for d in range(1,11):
+    print(d*3)
+
+for e in range(1,13):
+    print(e*8)
+
+for f in range(10,0,-1):
+    print(f)
+
+#Q. Create a project to ask the user his name and print it 6 times using while loop.
+#Q. Create a project to print all the numbers from 0 to 10 using while loop.
+#Q. Create a project to print all the numbers from 7 to 15 using while loop.
+#Q. Create a project to print all the even numbers from 6 to 20 using while loop.
+#Q. Create a project to print all the odd numbers from 7 to 15 using while loop.
+#Q. Create a project to print ten multiples of 3 using while loop.
+#Q. Create a project to print twelve multiples of 8 using while loop.
+#Q. Create a project to print all the numbers from 10 to 1 using while loop.
+
+name = input("Enter your name")
+count = 0
+
+while count < 6:
+    print(name)
+    count = count + 1
+
+a = 0
+while a < 11:
+    print(a)
+    a = a + 1
+
+b = 7
+while b < 16:
+    print(b)
+    b = b + 1
+
+c = 1
+while c < 12:
+    print(c*3)
+    c = c + 1
+
+d = 1
+while d < 13:
+    print(d*8)
+    d = d + 1
+
+e = 10
+while e > 0.9:
+    print(e)
+    e = e - 1
+
+f = 6
+while f < 22:
+    print(f)
+    f = f + 2
+
 
