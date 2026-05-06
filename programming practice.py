@@ -136,4 +136,32 @@ while counter1 < 12:
     counter1 = counter1 + 2
     counter2 = 1
 
+#Create a two-dimensional array scores of 3 players score in 4 rounds and retrieve a few values using indexing.
+
+score = [[12,14,15,13], [14,13,19,12], [19,11,15,17]]
+
+print(score[2][3])
+print(score[1][2])
+
+for row in score:
+    for item in row:
+        print(item)
+    # for j in score[0]:
+    #     print[i][j]
+
+for i in range(len(score)):
+    for j in range(len(score[0])):
+        print(score[i][j])
+
+largest = score[0][0]
+smallest = score[0][0]
+
+for i in range(len(score)):
+    for j in range(len(score[0])):
+        if score[i][j] > largest:
+            largest = score[i][j]
+        elif score [i][j] < smallest:
+            smallest = score[i][j]
+
+print(largest,smallest)
 
